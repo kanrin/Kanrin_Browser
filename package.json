@@ -1,0 +1,28 @@
+{
+    "name": "kanrin_browser",
+    "version": "1.0.0",
+    "description": "kanrin personal browser",
+    "main": "main.js",
+    "scripts": {
+        "start": "/Applications/Electron.app/Contents/MacOS/Electron .",
+        "winstart": "electron .",
+        "package": "electron-packager ./ --all --version=1.4.3 --icon=./ico/ico.ico --out=../exec/ --overwrite",
+        "package-win64": "electron-packager ./ --platform=win32 --arch=x64 --version=1.4.3 --icon=./ico/ico.ico --out=../exec/ --overwrite",
+        "package-win32": "electron-packager ./ --platform=win32 --arch=ia32 --version=1.4.3 --icon=./ico/ico.ico --out=../exec/ --overwrite",
+        "package-osx": "electron-packager ./ --platform=darwin --arch=x64 --version=1.4.3 --icon=./ico/ico.ico --out=../exec/ --overwrite"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kanrin/Kanrin_Browser.git"
+    },
+    "keywords": [
+        "web",
+        "browser"
+    ],
+    "author": "Orz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kanrin/Kanrin_Browser/issues"
+    },
+    "homepage": "https://github.com/kanrin/Kanrin_Browser#readme"
+}
